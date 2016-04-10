@@ -22,6 +22,8 @@ more
 less
 rm -rf folder_name
 很神奇有没有
+很讨厌
+
 ```
 
 ## Markdown语法
