@@ -21,15 +21,13 @@ cat -n 显示带行号的文本内容
 more 
 less
 rm -rf folder_name
-很神奇有没有
-很讨厌
-不好懂啊
 
-dkjsjkd
-挑战
 ```
 
 ## Markdown语法
 
 http://www.appinn.com/markdown/#p
-
+```
+当我把一个仓库往另一仓库克隆的时候老师都无语了，呵呵～
+初学很痛苦啊，成功很享受啊！
+```
