@@ -21,7 +21,7 @@ cat -n 显示带行号的文本内容
 more 
 less
 rm -rf folder_name
-
+查找冲突
 ```
 
 ## Markdown语法
