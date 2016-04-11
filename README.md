@@ -91,6 +91,20 @@ git fetch niuren
  将牛人的远程更新合并到本地分支
 git merge niuren/master
 
+
+git fetch branch_name 获取远程分支
+git merge branch_name/master 合并远程分支到本地
+以上两步相当于
+git pull
+不同在于修改了多个文件，然后同时进行合并可能会出现很多冲突，这时需要一个文件一个文件的去找冲突，使用上面的两步式就可以每次获取一个文件，合并一个文件，如果有冲突解决冲突在合并。
+
+git clone url包含三步内容
+```
+git init
+git remote add origin url
+git pull
+```
+
 - iwork应用
 
 - quicksilver软件什么作用？
