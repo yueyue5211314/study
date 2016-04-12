@@ -140,3 +140,11 @@ R替换文本，可连续替换
 :%（替换全文中的）s/sdf(被替换内容)/dfsd(替换内容)/g
 :%s/sdf(被替换内容)/dfsd(替换内容)／gc,替换全文中的，但会依次询问
 :num,num s/sdf(被替换内容)/dfsd(替换内容)/g两行（含）之间内容替换。
+
+如果你想要看看你的本地分支里哪些分支是已经合并进你当前所在的分支时，可以使用：
+git branch --merged
+反过来，如果需要查看哪些分支还没有合并进当前所在的分支，可以使用：
+git branch --no-merged
+结合高富帅的UNIX工具，你可以轻松的删除那些已经合并了的分支：
+git branch --merged | xargs git branch -d
+译者注：xargs是UNIX平台的一个工具，它的作用是将参数列表转换成小块分段传递给其他命令，以避免参数列表过长的问题。如果git branch --merged显示的是a，b，c三个分支已经合并，上面的命令会转换为：git branch -d a b c。更多xargs的信息：http://zh.wikipedia.org/wiki/Xargs
