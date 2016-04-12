@@ -105,6 +105,9 @@ git remote add origin url
 git pull
 ```
 
+git push --set-upstream origin branch_name
+把本地分支推到服务器
+
 - iwork应用
 
 - quicksilver软件什么作用？
