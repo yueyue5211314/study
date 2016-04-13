@@ -16,7 +16,7 @@ npm start
 npm install --save-dev supervisor  安装supervisor这个库，每次改动不用重启服务器。
 在package.json中start里改一下路径  ./node_modules/.bin/supervisor
 
-require是引用依赖export是导出模块
+require是引入依赖export是导出
 模块中暴露函数
 module.exports暴露一个 
 exports.暴露多个
