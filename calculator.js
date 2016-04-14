@@ -1,5 +1,5 @@
 module.exports=function(num){
-    //var i=1.7;
-    console.log(num/2/0.85);
+    var i=1.7;
+    return (num/i);
     
 }
